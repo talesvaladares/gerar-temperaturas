@@ -1,0 +1,13 @@
+{
+  "name": "gerar-temperaturas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r sucrase/register src/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "sucrase": "^3.25.0"
+  }
+}
